@@ -7,10 +7,22 @@ import Reader from "@/Reader";
 import Snippets from "@/Snippets";
 import ModeToggle from "@/components/mode-toggle";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
+import {
+  Dialog,
+  DialogTrigger,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
+
+import { Button } from "@/components/ui/button";
+import { InfoIcon } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThreadSelector } from "@/components/thread-selector";
 import Threads from "@/Threads";
+import Essay from "@/Essay";
 
 function App() {
   const [selectedThread, setSelectedThread] = useState(Threads[0]);
@@ -20,9 +32,30 @@ function App() {
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       <div className="p-4 max-w-md mx-auto">
         <div className="flex justify-between items-center mb-4">
-          <h1 className="text-2xl font-bold">Threaded Concepts: A Prototype</h1>
+          <h1 className="text-2xl font-bold">Threaded Concepts</h1>
+          <br />
+          <h2 className="text-lg italic">prototype</h2>
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button className="mx-2" variant="outline" size="icon">
+                <InfoIcon className="h-4 w-4" />
+              </Button>
+            </DialogTrigger>
+            <DialogContent className="sm:max-w-[425px]">
+              <DialogHeader>
+                <DialogTitle>About Threaded Concepts</DialogTitle>
+                <DialogDescription>
+                  Learn about this Bible study feature
+                </DialogDescription>
+              </DialogHeader>
+              <ScrollArea className="mt-4 h-[300px] w-full rounded-md border p-4">
+                <Essay />
+              </ScrollArea>
+            </DialogContent>
+          </Dialog>
           <ModeToggle />
         </div>
+        <hr className="mb-4" />
         <h2 className="text-xl text-center font-bold mb-4">James Chapter 1</h2>
 
         <div className="flex flex-wrap gap-2 mb-4">

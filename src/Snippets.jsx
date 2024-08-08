@@ -56,9 +56,9 @@ const highlightText = (text, words) => {
 const Snippets = ({ selectedThread }) => {
   return (
     <>
-      {selectedThread?.occurrences.map((occurrence) => {
+      {selectedThread?.occurrences.map((occurrence, idx) => {
         return (
-          <Card>
+          <Card key={idx}>
             <CardHeader>
               <CardTitle>{occurrence.ref}</CardTitle>
             </CardHeader>

@@ -1,6 +1,6 @@
 # Threaded Concepts
 
-**_Threaded Concepts: An Enhanced Reading Feature_**
+**_Threaded Concepts: An Enhanced Reading Feature_** ([Try it Online](https://threaded-concepts.mikebrinker.net/))
 
 Core Idea:
 Threaded Concepts is a feature integrated into existing Bible study tools or applications that highlights recurring words, themes, or ideas within a biblical passage, enabling readers to trace concept development throughout the text.

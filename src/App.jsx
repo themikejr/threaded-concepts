@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import "../app/globals.css";
 import Reader from "@/Reader";
+import Snippets from "@/Snippets";
 import ModeToggle from "@/components/mode-toggle";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -40,13 +41,14 @@ function App() {
             <ScrollArea className="h-[70vh]">
               <div className="p-4">
                 <Reader selectedThread={selectedThread} />
-                {/* {highlightText(fullText, threadsData.threads.find(t => t.name === selectedThread))} */}
               </div>
             </ScrollArea>
           </TabsContent>
           <TabsContent value="snippets">
             <ScrollArea className="h-[70vh]">
-              <div className="space-y-4"></div>
+              <div className="space-y-4">
+                <Snippets selectedThread={selectedThread} />
+              </div>
             </ScrollArea>
           </TabsContent>
         </Tabs>

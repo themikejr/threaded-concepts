@@ -1,22 +1,104 @@
 [
   {
     "name": "Trials and Testing",
-    "words": ["trials", "testing", "tempted", "tempts", "endures"]
+    "words": ["trials", "testing", "tempted", "tempts", "endures"],
+    "occurrences": [
+      {
+        "ref": "James 1:2",
+        "sample": "whenever you encounter various trials"
+      },
+      {
+        "ref": "James 1:3",
+        "sample": "you know that the testing of your faith produces endurance"
+      },
+      {
+        "ref": "James 1:12",
+        "sample": "Blessed is the person who endures testing"
+      },
+      {
+        "ref": "James 1:13",
+        "sample": "No one who is being tempted should say, 'I am being tempted by God'"
+      },
+      {
+        "ref": "James 1:13",
+        "sample": "he himself tempts no one"
+      },
+      {
+        "ref": "James 1:14",
+        "sample": "But each one is tempted when he is dragged away and enticed by his own desires"
+      }
+    ]
   },
   {
     "name": "Wisdom and Knowledge",
-    "words": ["know", "wisdom", "understand"]
+    "words": ["know", "wisdom", "understand"],
+    "occurrences": [
+      {
+        "ref": "James 1:3",
+        "sample": "because you know that the testing of your faith produces endurance"
+      },
+      {
+        "ref": "James 1:5",
+        "sample": "Now if any of you lacks wisdom, let him ask for it from God"
+      },
+      {
+        "ref": "James 1:19",
+        "sample": "Understand this, my dear brothers: every person must be quick to hear"
+      }
+    ]
   },
   {
     "name": "Endurance and Perseverance",
-    "words": ["endurance", "endures", "perfect"]
+    "words": ["endurance", "endures", "perfect"],
+    "occurrences": [
+      {
+        "ref": "James 1:3",
+        "sample": "the testing of your faith produces endurance"
+      },
+      {
+        "ref": "James 1:4",
+        "sample": "And let endurance have its perfect effect"
+      },
+      {
+        "ref": "James 1:12",
+        "sample": "Blessed is the person who endures testing"
+      }
+    ]
   },
   {
     "name": "Faith and Doubt",
-    "words": ["faith", "doubt", "doubts"]
+    "words": ["faith", "doubt", "doubts"],
+    "occurrences": [
+      {
+        "ref": "James 1:3",
+        "sample": "the testing of your faith produces endurance"
+      },
+      {
+        "ref": "James 1:6",
+        "sample": "But let him ask for it in faith, without any doubting"
+      },
+      {
+        "ref": "James 1:6",
+        "sample": "for the one who doubts is like the surf of the sea, driven by the wind and tossed about"
+      }
+    ]
   },
   {
     "name": "Perfect and Complete",
-    "words": ["perfect", "complete", "mature"]
+    "words": ["perfect", "complete", "mature"],
+    "occurrences": [
+      {
+        "ref": "James 1:4",
+        "sample": "And let endurance have its perfect effect, so that you may be mature and complete"
+      },
+      {
+        "ref": "James 1:17",
+        "sample": "Every good gift and every perfect gift is from above"
+      },
+      {
+        "ref": "James 1:25",
+        "sample": "But the one who looks into the perfect law of liberty and continues to do it"
+      }
+    ]
   }
 ]

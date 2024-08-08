@@ -41,14 +41,14 @@ function App() {
                 <InfoIcon className="h-4 w-4" />
               </Button>
             </DialogTrigger>
-            <DialogContent className="sm:max-w-[425px]">
+            <DialogContent className="sm:max-w-[425px] h-2/3">
               <DialogHeader>
                 <DialogTitle>About Threaded Concepts</DialogTitle>
                 <DialogDescription>
                   Learn about this Bible study feature
                 </DialogDescription>
               </DialogHeader>
-              <ScrollArea className="mt-4 h-[300px] w-full rounded-md border p-4">
+              <ScrollArea className="mt-4 w-full rounded-md border p-4">
                 <Essay />
               </ScrollArea>
             </DialogContent>
